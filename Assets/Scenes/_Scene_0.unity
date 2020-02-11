@@ -558,7 +558,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1366821452
 Transform:
   m_ObjectHideFlags: 0
@@ -646,7 +646,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b6b626ee70495643a6a3fbf9b03efc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prefabProjectile: {fileID: 6769963994800547547, guid: cd16401e87e5be941986f03c6b1da35d,
+    type: 3}
+  velocityMult: 8
   launchPoint: {fileID: 0}
+  launchPos: {x: 0, y: 0, z: 0}
+  projectile: {fileID: 0}
+  aimingMode: 0
 --- !u!1 &2033031314
 GameObject:
   m_ObjectHideFlags: 0
