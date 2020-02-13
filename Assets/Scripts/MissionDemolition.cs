@@ -46,7 +46,7 @@ public class MissionDemolition : MonoBehaviour
         }
 
         // Destroy old projectiles if they exits 
-        GameObject[] gos = GameObject.FindGameObjectsWithTag("Projectiles");
+        GameObject[] gos = GameObject.FindGameObjectsWithTag("Projectile");
         foreach (GameObject pTemp in gos)
         {
             Destroy(pTemp);
@@ -88,7 +88,7 @@ public class MissionDemolition : MonoBehaviour
             // zoom out
             SwitchView("Show Both");
             // Start the next level in 2 second
-            Invoke("Next Level", 2f);
+            Invoke("NextLevel", 2f);
         }
     }
 
